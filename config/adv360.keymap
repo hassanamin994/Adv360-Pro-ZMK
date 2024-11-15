@@ -55,7 +55,8 @@
         open_terminal: open_terminal {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LCTRL &kt LALT &kp T>;
+            bindings = <&kt LCTRL &kt LALT &kp T>, <&macro_release>;
+
             label = "OPEN_TERMINAL";
         };
     };
